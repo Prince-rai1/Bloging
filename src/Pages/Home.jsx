@@ -31,6 +31,7 @@ function Home() {
   }
 
   return(
+    <>
     <div className='w-full py-8 h-90 mb-20'>
             <div className='flex flex-wrap'>
                 {posts.map((post) => (
@@ -40,6 +41,8 @@ function Home() {
                 ))}
             </div>
     </div>
+      <div> </div>
+      </>
   )
 }
 

@@ -30,7 +30,7 @@ function App() {
     <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
       <div className='w-full block ml-5 mr-5'>
         <Header />
-        <main>
+        <main className='overflow-auto flex-grow'>
         <Outlet />
         </main>
         <Footer />
